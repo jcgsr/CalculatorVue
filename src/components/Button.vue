@@ -1,5 +1,5 @@
 <template>
-  <button @click="$emit('onCalcButtonClick', label)" class="button" :class="{ double, triple, operation }">{{ label }}</button>
+  <v-btn @click="$emit('onCalcButtonClick', label)" class="button" :class="{ double, triple, operation }">{{ label }}</v-btn>
 </template>
 
 <script>
@@ -19,7 +19,7 @@ export default {
   --border-button: solid 1px #888;
 }
 .button {
-  font-size: 1.4;
+  font-size: 1.4em;
   background-color: var(--bg-button);
   border: none;
   border-right: var(--border-button);
