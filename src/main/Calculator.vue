@@ -87,10 +87,11 @@ export default {
 
 <style>
 .calculator {
-  width: 235px;
-  height: 320px;
+  width: 300px;
+  height: 400px;
   border-radius: 5px;
   overflow: hidden;
+  margin: 0 auto;
 
   display: grid;
   grid-template-columns: repeat(4, 25%);

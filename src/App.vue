@@ -1,5 +1,6 @@
 <template>
-  <v-app class="calculator">    
+  <v-app id="calculator">   
+        <h1>Calculator Vue</h1> 
         <Calculator />
   </v-app>
 </template>
@@ -16,11 +17,12 @@ export default {
   *, html, body {
     margin: 0;
     text-align: center;
+    width: 100%;
   }
  
-  .calculator{
+  #calculator{
     margin: 0 auto;
     text-align: center;
-    margin-top: .5rem;
+    margin-top: .5rem;     
   }
 </style>

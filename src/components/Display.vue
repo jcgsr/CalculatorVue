@@ -1,7 +1,7 @@
 <template>
-  <div class="display">
+  <v-container class="display">
      {{ value }}
-  </div>
+  </v-container>
 </template>
 
 <script>
