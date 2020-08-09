@@ -14,7 +14,7 @@
     <Button label="1" @onCalcButtonClick="addDigit" />
     <Button label="2" @onCalcButtonClick="addDigit" />
     <Button label="3" @onCalcButtonClick="addDigit" />
-    <Button label="+" operation @onCalcButtonClick="setOperation" />
+    <Button label="+" color='green' operation @onCalcButtonClick="setOperation" />
     <Button label="0" double @onCalcButtonClick="addDigit" />
     <Button label="." @onCalcButtonClick="addDigit" />
     <Button label="=" operation @onCalcButtonClick="setOperation" />
