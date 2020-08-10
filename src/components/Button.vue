@@ -1,5 +1,5 @@
 <template>
-  <v-btn @click="$emit('oncalc-button-click', label)" class="button" :class="{ double, triple, operation }">{{ label }}</v-btn>
+  <v-btn @click="$emit('onCalcButtonClick', label)" class="button" :class="{ double, triple, operation }">{{ label }}</v-btn>
 </template>
 
 <script>
